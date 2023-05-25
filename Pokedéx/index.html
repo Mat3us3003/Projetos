@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/scrollbar.css">
 </head>
 
 <body>
@@ -25,570 +26,592 @@
 
     <main>
         <ul class="lista-pokemon">
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Bulbasaur</span>
-                    <span>#001</span>
-                </div>
-                <img src="./assets/bulbasaur.gif" alt="bulbasaur" class="gif">
-                <ul class="tipos">
-                    <li class="tipo">Grama</li>
-                    <li class="tipo">Veneno</li>
-                </ul>
-                <p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce lentamente.</p>
-            </li>
+            <div id="primeira">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Bulbasaur</span>
+                        <span>#001</span>
+                    </div>
+                    <img src="./assets/bulbasaur.gif" alt="bulbasaur" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo grama">Veneno</li>
+                    </ul>
+                    <p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce lentamente.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div  class="informacoes">
+                        <span>Ivysaur</span>
+                        <span>#002</span>
+                    </div>
+                    <img src="./assets/ivysaur.gif" alt="ivysaur" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo veneno">Veneno</li>
+                    </ul>
+                    <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em suas patas traseiras.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Venusaur</span>
+                        <span>#003</span>
+                    </div>
+                    <img src="./assets/venusaur.gif" alt="venusaur" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo veneno">Veneno</li>
+                    </ul>
+                    <p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar.</p>
+                </li>
+            </div>
 
-            <li class="cartao-pokemon">
-                <div  class="informacoes">
-                    <span>Ivysaur</span>
-                    <span>#002</span>
-                </div>
-                <img src="./assets/ivysaur.gif" alt="ivysaur" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                    <li class="tipo">Veneno</li>
-                </ul>
-                <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em suas patas traseiras.</p>
-            </li>
+            <div id="segunda">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Charmander</span>
+                        <span>#004</span>
+                    </div>
+                    <img src="./assets/charmander.gif" alt="charmander" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.</p>
+                </li>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Venusaur</span>
-                    <span>#003</span>
-                </div>
-                <img src="./assets/venusaur.gif" alt="venusaur" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                    <li class="tipo">Veneno</li>
-                </ul>
-                <p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar.</p>
-            </li>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Charmeleon</span>
+                        <span>#005</span>
+                    </div>
+                    <img src="./assets/charmeleon.gif" alt="charmeleon" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.</p>
+                </li>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Charmander</span>
-                    <span>#004</span>
-                </div>
-                <img src="./assets/charmander.gif" alt="charmander" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.</p>
-            </li>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Charizard</span>
+                        <span>#006</span>
+                    </div>
+                    <img src="./assets/charizard.gif" alt="charizard" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p>
+                </li>
+            </div>
+            
+            <div id="terceira">
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Squirtle</span>
+                        <span>#007</span>
+                    </div>
+                    <img src="./assets/squirtle.gif" alt="squirtle" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Wartortle</span>
+                        <span>#008</span>
+                    </div>
+                    <img src="./assets/wartortle.gif" alt="wartortle" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>blastoise</span>
+                        <span>#009</span>
+                    </div>
+                    <img src="./assets/blastoise.gif" alt="blastoise" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Charmeleon</span>
-                    <span>#005</span>
-                </div>
-                <img src="./assets/charmeleon.gif" alt="charmeleon" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Chikorita</span>
+                        <span>#152</span>
+                    </div>
+                    <img src="./assets/chikorita.gif" alt="chikorita" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt illo optio tenetur iure corporis ratione provident perferendis voluptates vitae sapiente. Laboriosam libero eos, excepturi doloremque quaerat sequi ratione vero eveniet?</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Bayleef</span>
+                        <span>#153</span>
+                    </div>
+                    <img src="./assets/bayleef.gif" alt="bayleef" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Meganium</span>
+                        <span>#154</span>
+                    </div>
+                    <img src="./assets/meganium.gif" alt="meganium" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Charizard</span>
-                    <span>#006</span>
-                </div>
-                <img src="./assets/charizard.gif" alt="charizard" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Cyndaquil</span>
+                        <span>#155</span>
+                    </div>
+                    <img src="./assets/cyndaquil.gif" alt="cyndaquil" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Quilava</span>
+                        <span>#156</span>
+                    </div>
+                    <img src="./assets/quilava.gif" alt="quilava" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Typhlosion</span>
+                        <span>#157</span>
+                    </div>
+                    <img src="./assets/typhlosion.gif" alt="typhlosion" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Squirtle</span>
-                    <span>#007</span>
-                </div>
-                <img src="./assets/squirtle.gif" alt="squirtle" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Totodile</span>
+                        <span>#158</span>
+                    </div>
+                    <img src="./assets/totodile.gif" alt="totodile" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Croconaw</span>
+                        <span>#159</span>
+                    </div>
+                    <img src="./assets/croconaw.gif" alt="croconaw" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Feraligatr</span>
+                        <span>#160</span>
+                    </div>
+                    <img src="./assets/feraligatr.gif" alt="feraligatr" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Wartortle</span>
-                    <span>#008</span>
-                </div>
-                <img src="./assets/wartortle.gif" alt="wartortle" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Treecko</span>
+                        <span>#252</span>
+                    </div>
+                    <img src="./assets/treecko.gif" alt="treecko" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Grovyle</span>
+                        <span>#253</span>
+                    </div>
+                    <img src="./assets/grovyle.gif" alt="grovyle" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Sceptile</span>
+                        <span>#254</span>
+                    </div>
+                    <img src="./assets/sceptile.gif" alt="sceptile" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>    
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>blastoise</span>
-                    <span>#009</span>
-                </div>
-                <img src="./assets/blastoise.gif" alt="blastoise" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Torchic</span>
+                        <span>#255</span>
+                    </div>
+                    <img src="./assets/torchic.gif" alt="torchic" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Combusken</span>
+                        <span>#256</span>
+                    </div>
+                    <img src="./assets/combusken.gif" alt="combusken" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                        <li class="tipo lutador">Lutador</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Blaziken</span>
+                        <span>#257</span>
+                    </div>
+                    <img src="./assets/blasiken.gif" alt="blaziken" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                        <li class="tipo lutador">Lutador</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>    
+            </div>
+            
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Mudkip</span>
+                        <span>#258</span>
+                    </div>
+                    <img src="./assets/mudkip.gif" alt="mudkip" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Marstomp</span>
+                        <span>#259</span>
+                    </div>
+                    <img src="./assets/marstomp.gif" alt="marstomp" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                        <li class="tipo terra">Terra</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Swampert</span>
+                        <span>#260</span>
+                    </div>
+                    <img src="./assets/swampert.gif" alt="swampert" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                        <li class="tipo terra">Terra</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>    
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Chikorita</span>
-                    <span>#152</span>
-                </div>
-                <img src="./assets/chikorita.gif" alt="chikorita" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt illo optio tenetur iure corporis ratione provident perferendis voluptates vitae sapiente. Laboriosam libero eos, excepturi doloremque quaerat sequi ratione vero eveniet?</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Turtwig</span>
+                        <span>#387</span>
+                    </div>
+                    <img src="./assets/turtwig.gif" alt="turtwig" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Grotle</span>
+                        <span>#388</span>
+                    </div>
+                    <img src="./assets/grotle.gif" alt="grotle" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Torterra</span>
+                        <span>#389</span>
+                    </div>
+                    <img src="./assets/torterra.gif" alt="torterra" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                        <li class="tipo terra">Terra</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+            </div>
+            
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Chimchar</span>
+                        <span>#390</span>
+                    </div>
+                    <img src="./assets/chimchar.gif" alt="chimchar" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Monferno</span>
+                        <span>#391</span>
+                    </div>
+                    <img src="./assets/monferto.gif" alt="monferto" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                        <li class="tipo lutador">Lutador</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Infernape</span>
+                        <span>#392</span>
+                    </div>
+                    <img src="./assets/infernape.gif" alt="infernape" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                        <li class="tipo lutador">Lutador</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+            </div>
+            
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Piplup</span>
+                        <span>#393</span>
+                    </div>
+                    <img src="./assets/piplup.gif" alt="piplup" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Prinplup</span>
+                        <span>#394</span>
+                    </div>
+                    <img src="./assets/prinplup.gif" alt="prinplup" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Empoleon</span>
+                        <span>#395</span>
+                    </div>
+                    <img src="./assets/empoleon.gif" alt="empoleon" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                        <li class="tipo metal">Metal</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>    
+            </div>
+            
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Snivy</span>
+                        <span>#495</span>
+                    </div>
+                    <img src="./assets/snivy.gif" alt="snivy" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Servine</span>
+                        <span>#496</span>
+                    </div>
+                    <img src="./assets/servine.gif" alt="servine" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Serperior</span>
+                        <span>#497</span>
+                    </div>
+                    <img src="./assets/serperior.gif" alt="serperior" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo grama">Grama</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Bayleef</span>
-                    <span>#153</span>
-                </div>
-                <img src="./assets/bayleef.gif" alt="bayleef" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Tepig</span>
+                        <span>#498</span>
+                    </div>
+                    <img src="./assets/tepig.gif" alt="tepig" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Pignite</span>
+                        <span>#499</span>
+                    </div>
+                    <img src="./assets/pignite.gif" alt="pignite" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                        <li class="tipo lutador">Lutador</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Emboar</span>
+                        <span>#500</span>
+                    </div>
+                    <img src="./assets/emboar.gif" alt="emboar" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo fogo">Fogo</li>
+                        <li class="tipo lutador">Lutador</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+            </div>
 
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Meganium</span>
-                    <span>#154</span>
-                </div>
-                <img src="./assets/meganium.gif" alt="meganium" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Cyndaquil</span>
-                    <span>#155</span>
-                </div>
-                <img src="./assets/cyndaquil.gif" alt="cyndaquil" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Quilava</span>
-                    <span>#156</span>
-                </div>
-                <img src="./assets/quilava.gif" alt="quilava" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Typhlosion</span>
-                    <span>#157</span>
-                </div>
-                <img src="./assets/typhlosion.gif" alt="typhlosion" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Totodile</span>
-                    <span>#158</span>
-                </div>
-                <img src="./assets/totodile.gif" alt="totodile" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Croconaw</span>
-                    <span>#159</span>
-                </div>
-                <img src="./assets/croconaw.gif" alt="croconaw" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Feraligatr</span>
-                    <span>#160</span>
-                </div>
-                <img src="./assets/feraligatr.gif" alt="feraligatr" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Treecko</span>
-                    <span>#252</span>
-                </div>
-                <img src="./assets/treecko.gif" alt="treecko" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Grovyle</span>
-                    <span>#253</span>
-                </div>
-                <img src="./assets/grovyle.gif" alt="grovyle" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Sceptile</span>
-                    <span>#254</span>
-                </div>
-                <img src="./assets/sceptile.gif" alt="sceptile" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Totodile</span>
-                    <span>#158</span>
-                </div>
-                <img src="./assets/totodile.gif" alt="totodile" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Torchic</span>
-                    <span>#255</span>
-                </div>
-                <img src="./assets/torchic.gif" alt="torchic" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Combusken</span>
-                    <span>#256</span>
-                </div>
-                <img src="./assets/combusken.gif" alt="combusken" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                    <li class="tipo">Lutador</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Blaziken</span>
-                    <span>#257</span>
-                </div>
-                <img src="./assets/blasiken.gif" alt="blaziken" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                    <li class="tipo">Lutador</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Mudkip</span>
-                    <span>#258</span>
-                </div>
-                <img src="./assets/mudkip.gif" alt="mudkip" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Marstomp</span>
-                    <span>#259</span>
-                </div>
-                <img src="./assets/marstomp.gif" alt="marstomp" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                    <li class="tipo">Terra</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Swampert</span>
-                    <span>#260</span>
-                </div>
-                <img src="./assets/swampert.gif" alt="swampert" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                    <li class="tipo">Terra</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Turtwig</span>
-                    <span>#387</span>
-                </div>
-                <img src="./assets/turtwig.gif" alt="turtwig" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Grotle</span>
-                    <span>#388</span>
-                </div>
-                <img src="./assets/grotle.gif" alt="grotle" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Torterra</span>
-                    <span>#389</span>
-                </div>
-                <img src="./assets/torterra.gif" alt="torterra" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                    <li class="tipo">Terra</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Chimchar</span>
-                    <span>#390</span>
-                </div>
-                <img src="./assets/chimchar.gif" alt="chimchar" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Monferno</span>
-                    <span>#391</span>
-                </div>
-                <img src="./assets/monferto.gif" alt="monferto" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                    <li class="tipo">Lutador</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Infernape</span>
-                    <span>#392</span>
-                </div>
-                <img src="./assets/infernape.gif" alt="infernape" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                    <li class="tipo">Lutador</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Piplup</span>
-                    <span>#393</span>
-                </div>
-                <img src="./assets/piplup.gif" alt="piplup" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Prinplup</span>
-                    <span>#394</span>
-                </div>
-                <img src="./assets/prinplup.gif" alt="prinplup" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Empoleon</span>
-                    <span>#395</span>
-                </div>
-                <img src="./assets/empoleon.gif" alt="empoleon" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                    <li class="tipo">Metal</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Snivy</span>
-                    <span>#495</span>
-                </div>
-                <img src="./assets/snivy.gif" alt="snivy" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Servine</span>
-                    <span>#496</span>
-                </div>
-                <img src="./assets/servine.gif" alt="servine" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Serperior</span>
-                    <span>#497</span>
-                </div>
-                <img src="./assets/serperior.gif" alt="serperior" class="gif">
-                <ul>
-                    <li class="tipo">Grama</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Tepig</span>
-                    <span>#498</span>
-                </div>
-                <img src="./assets/tepig.gif" alt="tepig" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Pignite</span>
-                    <span>#499</span>
-                </div>
-                <img src="./assets/pignite.gif" alt="pignite" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                    <li class="tipo">Lutador</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Emboar</span>
-                    <span>#500</span>
-                </div>
-                <img src="./assets/emboar.gif" alt="emboar" class="gif">
-                <ul>
-                    <li class="tipo">Fogo</li>
-                    <li class="tipo">Lutador</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Oshawott</span>
-                    <span>#501</span>
-                </div>
-                <img src="./assets/oshawott.gif" alt="oshawott" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Dewott</span>
-                    <span>#502</span>
-                </div>
-                <img src="./assets/dewott.gif" alt="dewott" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="cartao-pokemon">
-                <div class="informacoes">
-                    <span>Samurott</span>
-                    <span>#503</span>
-                </div>
-                <img src="./assets/samurott.gif" alt="samurott" class="gif">
-                <ul>
-                    <li class="tipo">Água</li>
-                </ul>
-                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
+            <div>
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Oshawott</span>
+                        <span>#501</span>
+                    </div>
+                    <img src="./assets/oshawott.gif" alt="oshawott" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Dewott</span>
+                        <span>#502</span>
+                    </div>
+                    <img src="./assets/dewott.gif" alt="dewott" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+    
+                <li class="cartao-pokemon">
+                    <div class="informacoes">
+                        <span>Samurott</span>
+                        <span>#503</span>
+                    </div>
+                    <img src="./assets/samurott.gif" alt="samurott" class="gif">
+                    <ul class="tipos">
+                        <li class="tipo agua">Água</li>
+                    </ul>
+                    <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+                </li>
+            </div>
         </ul>
     </main>
 </body>
