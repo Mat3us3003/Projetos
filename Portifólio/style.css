@@ -121,6 +121,22 @@ div.projeto{
     }
 }
 
+button{
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    transition: ease-in-out 0.25s;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
 /* Sobre */
 .sobre{
     padding: 5em;
@@ -128,6 +144,11 @@ div.projeto{
     p{
         font-size: 18px;
     }
+}
+
+.sobre h3{
+    padding: 0 45%;
+    font-size: 32px;
 }
 
 .imagem{
