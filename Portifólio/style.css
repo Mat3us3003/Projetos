@@ -1,22 +1,16 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #777;
+    background-color: #506a6f;
 }
 
 li{
     list-style: none;
 }
 
-hr{
-    border: 2px solid #FFF;
-    width: 10%;
-    margin: 1em auto;
-}
-
 /* Header */
 header, .navbar{
-    background-color: #777;
+    background-color: #506a6f;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -44,6 +38,41 @@ header, .navbar{
     color: #CCCCCC;
     transform: scale(1.2);
 }
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: #506a6f;
+    justify-content: space-between;
+    h5{
+        margin-left: 10em;
+        font-size: 16px;
+    };
+}
+
+div.social{
+    margin: 1em;
+    padding: 0;
+    ul{
+        display: flex;
+        justify-content: right;
+        li{
+            margin-right: 2em;
+            font-size: 16px;
+            transition: ease-in-out 0.25s;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
+.social li:hover{
+    transform: scale(1.2);
+}
+
+
 
 /* Home */
 div.home{
@@ -82,7 +111,7 @@ ul.social-media li a img{
     width: 3em;
     height: 3em;
     transition: ease-in-out 0.25s;
-    background-color: aliceblue;
+    background-color: #fff;
     border-radius: 1em;
 }
 
@@ -90,14 +119,17 @@ ul.social-media li a img:hover{
     transform: scale(1.2);
 }
 
+
+
 /* Projetos */
 .titulo-projeto{
+    padding-top: 2em;
     padding-left: 45%;
     font-size: 32px;
 }
 
 div.projetos{
-    background-color: #a5a5a5;
+    background-color: #d3dfde;
 }
 
 div.projeto{
@@ -139,9 +171,12 @@ button:hover{
     transform: scale(1.1);
 }
 
+
+
 /* Sobre */
 .sobre{
-    padding: 5em;
+    background-color: #d3dfde;
+    padding: 5em 8em;
     text-align: justify;
     p{
         font-size: 18px;
@@ -162,40 +197,17 @@ button:hover{
     }
 }
 
-footer{
-    display: flex;
-    background-color: #777;
-    justify-content: space-between;
-    h5{
-        margin-left: 10em;
-        font-size: 16px;
-    };
-}
 
-div.social{
-    margin: 1em;
-    padding: 0;
-    ul{
-        display: flex;
-        justify-content: right;
-        li{
-            margin-right: 2em;
-            font-size: 16px;
-            transition: ease-in-out 0.25s;
-            a{
-                text-decoration: none;
-                color: #000;
-            }
-        }
-    }
-}
-.social li:hover{
-    transform: scale(1.2);
-}
 
 /* Artigos */
 
+.artigos{
+    background-color: #d3dfde;
+    text-align: center;
+}
+
 .artigos h3{
+    margin-top: 2em;
     font-size: 28px;
 }
 
