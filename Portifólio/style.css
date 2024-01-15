@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #777;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    border: 2px solid #FFF;
+    width: 10%;
+    margin: 1em auto;
+}
+
+/* Header */
+header, .navbar{
+    background-color: #777;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.links{
+    display: flex;
+    justify-content: right;
+}
+
+.nav-links{
+    margin-right: 1em;
+    font-size: 22px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000;
+    transition: ease-in-out 0.25s;
+}
+
+.nav-links a:hover{
+    color: #CCCCCC;
+    transform: scale(1.2);
+}
+
+/* Home */
+div.home{
+    margin: 0;
+    padding: 0 5em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100vh; 
+    background-image: url('./img/perfil.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-home{
+    width: 35em;
+    h1{
+        font-size: 48px;
+    };
+    h2{
+        font-size: 30px;
+    };
+    p{
+        font-size: 24px;
+        text-align: justify;
+    }
+}
+
+ul.social-media{
+    display: flex;
+}
+
+ul.social-media li a img{
+    margin-left: 1em;
+    width: 3em;
+    height: 3em;
+    transition: ease-in-out 0.25s;
+    background-color: aliceblue;
+    border-radius: 1em;
+}
+
+ul.social-media li a img:hover{
+    transform: scale(1.2);
+}
+
+/* Projetos */
+.titulo-projeto{
+    padding-left: 45%;
+    font-size: 32px;
+}
+
+div.projetos{
+    background-color: #a5a5a5;
+}
+
+div.projeto{
+    display: flex;
+    align-items: center;
+    border: #777 solid 0.5px;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.img-projeto img{
+    margin: 2em 4em;
+}
+
+.texto-projeto{
+    width: 55em;
+    text-align: justify;
+    h3{
+        font-size: 24px;
+    };
+    p{
+        font-size: 20px;
+    }
+}
+
+/* Sobre */
+.sobre{
+    padding: 5em;
+    text-align: justify;
+    p{
+        font-size: 18px;
+    }
+}
+
+.imagem{
+    padding-left: 35%;
+    img{
+    width: 20em;
+    height: 24em;
+    border-radius: 2em;
+    }
+}
+
+footer{
+    display: flex;
+    background-color: #777;
+    justify-content: space-between;
+    h5{
+        margin-left: 10em;
+        font-size: 16px;
+    };
+}
+
+div.social{
+    margin: 1em;
+    padding: 0;
+    ul{
+        display: flex;
+        justify-content: right;
+        li{
+            margin-right: 2em;
+            font-size: 16px;
+            transition: ease-in-out 0.25s;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
+.social li:hover{
+    transform: scale(1.2);
+}
+
+/* Artigos */
+
+.artigos h3{
+    font-size: 28px;
+}
+
+.artigo{
+    text-align: center;
+    padding: 0 15em;
+    p{
+        text-align: justify;
+        font-size: 20px;
+    }
+}
